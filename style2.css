@@ -1,0 +1,37 @@
+
+  /* Districts */
+h1{font-family: fantasy;
+   font-weight: bolder;
+   text-align: center;
+   text-decoration: hsla(hue, saturation, lightness, alpha);
+   text-shadow: hsla(hue, saturation, lightness, alpha);
+   font-style: oblique;
+   color: inherit;
+
+  }
+
+  .card img{
+     height: 10em;
+     width: 20em;
+     margin: 1em;
+  }
+
+  .card{margin: 4em;}
+
+  .media img{height:15em;
+             width: 25;}
+
+           
+  .media-body{margin: 2em;}
+  
+  .media{margin: 4em;}
+
+footer h5{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-style: italic;
+          font-weight: 500;
+          color:#424242;
+          text-align: center;
+         }
+footer{ background-color:#202020;
+            margin-top: 9em;
+            height: 2em;}
