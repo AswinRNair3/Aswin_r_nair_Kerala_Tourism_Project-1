@@ -24,7 +24,7 @@ function validate1()
 }
 
 function pass()
-{let regpwd=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/
+{let regpwd=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$/
   if(regpwd.test(pwd.value))
   {strength.innerHTML="Success";
   strength.style.color="green";
@@ -32,10 +32,10 @@ function pass()
    return true;
   }
   else
-  {strength.innerHTML="Password must contain minimum 8 characters, atleast 1 uppercase,1 lowercaseand a number";
+  {strength.innerHTML="Password must contain minimum 8 characters, atleast 1 uppercase,1 lowercase and a number";
   strength.style.color="red";
   strength.style.border="2px solid red";
-   return true;
+   return false;
   }
 }
 
